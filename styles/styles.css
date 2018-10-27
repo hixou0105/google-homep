@@ -17,7 +17,7 @@ a:hover {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: none;
 }
 
 .nav-left li {
@@ -26,13 +26,16 @@ a:hover {
 
 .nav-left li a {
     display: block;
-    padding: 13px;
-    background-color: white;
+    padding: 8px 5px;
+    background-color: none;
 }
 
 .nav-left, ul, li, a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
+    text-align: center;
+    line-height: 3;
+    margin-left: 5px;
 }
 
 /* Navigation bar top right */
@@ -40,7 +43,7 @@ a:hover {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: none;
 }
 
 .nav-right li {
@@ -49,21 +52,31 @@ a:hover {
 
 .nav-right li a {
     display: block;
-    padding: 13px;
-    background-color: white;
+    padding: 8px 5px;
+    background-color: none;
 }
 
 .nav-right, ul, li, a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
+    text-align: center;
+    line-height: 3;
+    margin-left: 5px;
 }
 
 .nav-right .button {
     background-color: rgb(70, 143, 226);
-    font-size: 12px;
     color: white;
     border-color: rgb(70, 143, 226);
     border: 1px;
     padding: 8px 16px;
-    text-align: center;
 }
+
+/* Navigation end */
+
+.center {
+    display: block;
+    padding: 10px 5px;
+
+}
+
