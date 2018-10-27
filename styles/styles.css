@@ -1,4 +1,56 @@
-/* Links Hover Underline */
+/* Top Navigation Bar */
+
+#top-navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 3;
+}
+
+.nav-left ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-left li {
+    float: left;
+}
+
+.nav-left li a {
+    margin-left: 5px;
+    display: inline-block;
+    padding: 8px 5px;
+}
+
+
+.nav-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 3;
+}
+
+.nav-right li {
+    float: right
+}
+
+.nav-right li a {
+    margin-right: 5px;
+    display: block;
+    padding: 8px 5px;
+}
+
+.nav-right .button {
+    background-color: rgb(70, 143, 226);
+    color: white;
+    border-color: rgb(70, 143, 226);
+    border: 1px;
+    padding: 8px 16px;
+}
+
+
+/* Hover */
 a:link {
     text-decoration: none;
 }
@@ -12,71 +64,50 @@ a:hover {
 
 }
 
-/* Navigation bar top left */
-.nav-left {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: none;
+.appsicon {
+    opacity: 0.7;
 }
 
-.nav-left li {
-    float: left
+.appsicon:hover, .searchbar:hover, .buttons:hover {
+    opacity: 1;
 }
 
-.nav-left li a {
-    display: block;
-    padding: 8px 5px;
-    background-color: none;
-}
-
-.nav-left, ul, li, a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    text-align: center;
-    line-height: 3;
-    margin-left: 5px;
-}
-
-/* Navigation bar top right */
-.nav-right {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: none;
-}
-
-.nav-right li {
-    float: right
-}
-
-.nav-right li a {
-    display: block;
-    padding: 8px 5px;
-    background-color: none;
-}
-
-.nav-right, ul, li, a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    text-align: center;
-    line-height: 3;
-    margin-left: 5px;
-}
-
-.nav-right .button {
-    background-color: rgb(70, 143, 226);
-    color: white;
-    border-color: rgb(70, 143, 226);
-    border: 1px;
-    padding: 8px 16px;
-}
-
-/* Navigation end */
+/* Others */
 
 .center {
     display: block;
     padding: 10px 5px;
 
 }
+
+.bold {
+    font-weight: bold;
+}
+
+.shadow {
+    box-shadow: 1px 1px 5px 1px rgb(161, 161, 161);
+}
+
+/* Main Google Body */
+
+#logo {
+    margin-top: 300px;
+}
+
+#google {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    margin: 185px 0 0 0;
+}
+
+.searchbar {
+    width: 600px;
+    height: 40px;
+    margin: 20px;
+    border: black;
+    opacity: 0.8;
+}
+
+
 
