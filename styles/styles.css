@@ -64,15 +64,20 @@ a:hover {
 
 }
 
-.appsicon {
-    opacity: 0.7;
-}
-
 .appsicon:hover, .searchbar:hover, .buttons:hover {
     opacity: 1;
 }
 
+.search-button:hover, .lucky-button:hover {
+    opacity: 1;
+    border: 1px solid rgb(202, 202, 202);
+}
+
 /* Others */
+
+.appsicon {
+    opacity: 0.7;
+}
 
 .center {
     display: block;
@@ -87,6 +92,7 @@ a:hover {
 .shadow {
     box-shadow: 1px 1px 5px 1px rgb(161, 161, 161);
 }
+
 
 /* Main Google Body */
 
@@ -109,5 +115,69 @@ a:hover {
     opacity: 0.8;
 }
 
+.search-button {
+    height: 40px;
+    width: 120px;
+    opacity: 0.7;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid transparent;
+}
 
+.lucky-button {
+    height: 40px;
+    width: 135px;
+    opacity: 0.7;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid transparent;
+}
 
+.voice-input {
+    height: 20px;
+    position: absolute;
+    top: 135px;
+    right: 680px;
+}
+
+/* Bottom Navigation Bar */
+
+#footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 3;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(241, 241, 237);
+}
+
+.footer-text {
+    color: rgb(117, 110, 99)
+}
+
+.left-footer ul, .right-footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left-footer li {
+    float: left;
+}
+
+.right-footer li {
+    float: right;
+}
+
+.left-footer li a {
+    margin-left: 30px;
+    display: block;
+    padding: 3px;
+}
+
+.right-footer li a {
+    margin-right: 30px;
+    display: block;
+    padding: 3px;
+}
