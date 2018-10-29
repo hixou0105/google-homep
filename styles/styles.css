@@ -49,6 +49,17 @@
     padding: 8px 16px;
 }
 
+/* I couldn't figure out how to change the link color. 
+
+Maybe this:
+a {
+    color: inherit;
+} */
+
+.nav-text {
+    color: black;
+}
+
 
 /* Hover */
 a:link {
